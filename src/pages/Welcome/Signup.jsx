@@ -1,9 +1,7 @@
-/** @format */
-
-import React from "react";
+import React from 'react'
 
 export default function SignUpNew() {
-	return (
+  return (
 		<div
 			className="custom-font"
 			style={{
@@ -106,7 +104,7 @@ export default function SignUpNew() {
 									}}
 								/>
 							</div>
-							<button className="button-continue">
+							<button className='button-continue'>
 								Continue
 							</button>
 						</div>
@@ -121,11 +119,11 @@ export default function SignUpNew() {
 									alignItems: "center",
 								}}
 							>
-								<a href="#" className="link">
+								<a href="#" style={{ color: "#1F76C2" }}>
 									<span>Terms of Service</span>
 								</a>
 								<h5 style={{ padding: "0 4px" }}>and</h5>
-								<a href="#" className="link">
+								<a href="#" style={{ color: "#1F76C2" }}>
 									<span>Privacy Policy</span>
 								</a>
 							</div>
@@ -142,7 +140,7 @@ export default function SignUpNew() {
 					<h5 style={{ padding: "0 4px" }}>
 						Already have an account?
 					</h5>
-					<a href="#" className="link">
+					<a href="#" style={{ color: "#1F76C2" }}>
 						<span>Log in</span>
 					</a>
 				</div>
@@ -156,5 +154,5 @@ export default function SignUpNew() {
 				/>
 			</div>
 		</div>
-	);
+  );
 }

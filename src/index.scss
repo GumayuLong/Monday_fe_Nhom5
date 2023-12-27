@@ -7,7 +7,7 @@
 	font-family: "Poppins", sans-serif;
 }
 .custom-placeholder {
-	padding-left: 20px;
+	padding: 8px 16px
 }
 .custom-placeholder:hover {
 	border-color: black;
@@ -33,12 +33,10 @@ li {
 	min-width: 400px;
 
 	@media screen and (min-width: 400px) {
-		/* Khi màn hình lớn hơn hoặc bằng 768px */
 		max-width: 60%;
 	}
 
 	@media screen and (min-width: 400px) {
-		/* Khi màn hình lớn hơn hoặc bằng 992px */
 		max-width: 100%;
 	}
 	.button-google {
@@ -56,6 +54,7 @@ li {
 	}
 	.button-continue {
 		border: 1px solid;
+		margin: 0 auto;
 		border-radius: 5px;
 		width: 80%;
 		height: 40px;
