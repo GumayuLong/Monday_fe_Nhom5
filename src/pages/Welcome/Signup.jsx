@@ -1,7 +1,9 @@
-import React from 'react'
+/** @format */
+
+import React from "react";
 
 export default function SignUpNew() {
-  return (
+	return (
 		<div
 			className="custom-font"
 			style={{
@@ -140,7 +142,7 @@ export default function SignUpNew() {
 					<h5 style={{ padding: "0 4px" }}>
 						Already have an account?
 					</h5>
-					<a href="#" className='link'>
+					<a href="#" className="link">
 						<span>Log in</span>
 					</a>
 				</div>
@@ -154,5 +156,5 @@ export default function SignUpNew() {
 				/>
 			</div>
 		</div>
-  );
+	);
 }
