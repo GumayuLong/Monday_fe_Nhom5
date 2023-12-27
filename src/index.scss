@@ -1,0 +1,76 @@
+/** @format */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.custom-font {
+	font-family: "Poppins", sans-serif;
+}
+.custom-placeholder {
+	padding-left: 20px;
+}
+.custom-placeholder:hover {
+	border-color: black;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+margin,
+ul,
+ol,
+li {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.responsive-width-form {
+	width: 60%;
+	min-width: 400px;
+
+	@media screen and (min-width: 400px) {
+		/* Khi màn hình lớn hơn hoặc bằng 768px */
+		max-width: 60%;
+	}
+
+	@media screen and (min-width: 400px) {
+		/* Khi màn hình lớn hơn hoặc bằng 992px */
+		max-width: 100%;
+	}
+	.button-google {
+		width: 80%;
+		margin: 0 auto;
+		border-radius: 5px;
+		height: 40px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid #c3c6d4;
+	}
+	.button-google:hover {
+		background-color: #dcdfec;
+	}
+	.button-continue {
+		border: 1px solid;
+		border-radius: 5px;
+		width: 80%;
+		height: 40px;
+		background-color: #0073ea;
+		color: white;
+		padding: 8px 16px;
+		font-weight: 300;
+	}
+    .button-continue:hover{
+        background-color: #0060b9;
+    }
+    .link{
+        color: "#1F76C2"
+    }
+    .link:hover{
+        text-decoration: underline;
+    }
+}
