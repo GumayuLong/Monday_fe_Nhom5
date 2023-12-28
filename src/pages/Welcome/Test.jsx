@@ -49,7 +49,13 @@ export default function Test() {
 							>
 								Hey there, what brings you here today?
 							</h2>
-							<div style={{ display: "flex" }}>
+							<div
+								style={{
+									display: "flex",
+									whiteSpace: "nowrap",
+									flexWrap: "wrap",
+								}}
+							>
 								{/* Work */}
 								<div
 									style={{
