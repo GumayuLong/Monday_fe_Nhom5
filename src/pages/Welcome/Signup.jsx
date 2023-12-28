@@ -1,6 +1,8 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 export default function SignUpNew() {
+	const navigate = useNavigate();
   return (
 		<div
 			className="custom-font"
@@ -104,7 +106,7 @@ export default function SignUpNew() {
 									}}
 								/>
 							</div>
-							<button className='button-continue'>
+							<button className='button-continue' onClick={() => {navigate("/users/invitation/accept")}}>
 								Continue
 							</button>
 						</div>
